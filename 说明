@@ -1,0 +1,16 @@
+【说明一】
+本工程的jdk源码的版本为：jdk1.8.0_101.jdk 中的源码。
+
+
+【说明二】
+背景：
+直接从jdk目录中拿到src.zip解压之后的源码不能直接运行，即使是新建一个工程也不行，因为工程运行所使用的jre默认是本地安装的某个版本，需要修改为本工程自己方可运行（否则会报很多包名冲突，类名冲突等，因为本地jre中的jar包与本工程完全重名）。
+
+目的：
+因此就需要对本工程进行idea配置，即配置运行所需的sre为本工程自己。
+
+具体过程参考如下博客：
+【如何修改jdk源码并且运行？】
+https://blog.csdn.net/weixin_39520967/article/details/104592232?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v25-2-104592232.nonecase&utm_term=%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9jdk%E6%BA%90%E7%A0%81%E5%B9%B6%E8%BF%90%E8%A1%8C
+
+
